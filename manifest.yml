@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: KauraBookStore
+  host: KauraBookStore
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - Compose for MongoDB-ez
